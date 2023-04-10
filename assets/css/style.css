@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff3e4;
+    border-radius: 0 0 60% 60% / 80px;
+    overflow: hidden;
+}
+nav{
+    background-color: #fff;
+    width: 100%;
+    height: 12vh;
+    position: fixed;
+    top: 0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 25px;
+}
+.nav-content{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+}
+.logo-container{
+    position: relative;
+    width: 50%;
+    top: -10px;
+}
+.diamond{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(220, 164, 36);
+    transform: rotate(45deg);
+    position: absolute;
+}
+.logo{
+    color: rgb(47, 50, 125);
+    text-decoration: none;
+    font-weight: 600;
+    position: absolute;
+    margin-left: 10px;
+    width: 100%;
+    font-size: 20px;
+}
+body header nav .nav-buttons button{
+    background-color: #fff;
+    border-radius: 30px;
+    color: rgb(47, 50, 125);
+    border: none;
+    width: 140px;
+    height: 40px;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 25px;
+}
+
+
+/* nav .nav-buttons .build-btn,
+.home-page .left .build-btn{
+    background-color: rgb(220, 164, 36);
+    border-radius: 30px;
+    color: #fff;
+    border: none;
+    font-size: 12px;
+    padding: 13px 30px;
+    text-decoration: none;
+    margin-left: 15px;
+} */
+
+.build-btn{
+    background-color: rgb(220, 164, 36);
+    border-radius: 30px;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    padding: 13px 30px;
+    text-decoration: none;
+    margin-left: 15px;
+}
+.menu-icon{
+    display: none !important;
+}
+
+
+
+
+
+/* HOME PAGE SECTION */
+.home-page{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    margin-top: 12vh;
+}
+.home-page .left{
+    width: 50%;
+}
+.home-page .left h1{
+    font-size: 50px;
+    color: rgb(47, 50, 125);
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.home-page .left h1 span{
+    color: rgb(220, 164, 36);
+}
+.home-page .left p{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.home-page .left .build-now{
+    margin-left: 0;
+}
+.home-page .left .build-now:hover{
+    background-color: rgb(124, 100, 45);
+}
+.home-page .right{
+    width: 50%;
+    /* background-color: pink; */
+}
+.home-page .right img{
+    width: 100%;
+}
+
+
+/* BUILD WITH HARVOXX SECTION */
+
+.build-with-harvoxx{
+    width: 85%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+}
+.build-with-harvoxx .left{
+    width: 50%;
+}
+.build-with-harvoxx .left h1, .guaranteed h1{
+    color: rgb(47, 50, 125);
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: 600;
+}
+.build-with-harvoxx .left span, .guaranteed span{
+    color: rgb(220, 164, 36);
+}
+.build-with-harvoxx .left p, .guaranteed p{
+    color: rgb(105, 105, 132);
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+.build-with-us{
+    text-decoration: none;
+    border: 1px solid rgba(220, 164, 36, 0.5);
+    color: rgb(220, 164, 36);
+    padding: 15px 40px;
+    font-size: 15px;
+    border-radius: 30px;
+}
+.build-with-us:hover{
+    border: 1px solid rgb(220, 164, 36);
+    background-color: rgba(220, 165, 36, 0.081);
+}
+.build-with-harvoxx .right{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.build-with-harvoxx .right .box{
+    width: 45%;
+}
+.build-with-harvoxx .right .box img, .cobalt img{
+    width: 40px;
+    height: 40px;
+    padding: 20px;
+}
+.image-container{
+    width: 80px; 
+    height: 80px;
+    border-radius: 80px;
+}
+.blue{
+    background-color: rgb(35, 189, 238);
+}
+.pink{
+    background-color: rgb(243, 97, 123);
+}
+.orange{
+    background-color: rgb(255, 86, 28);
+}
+.green{
+    background-color: rgb(65, 184, 131);
+}
+.build-with-harvoxx .right .box h2, .guaranteed-box h2{
+    color: rgb(47, 50, 125);
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.build-with-harvoxx .right .box p, .guaranteed-box p{
+    color: rgb(47, 50, 125);
+    font-size: 16px;
+    margin-bottom: 30px;
+    
+}
+
+
+
+/* GUARANTEED SECTION */
+.guaranteed{
+    width: 85%;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+.guaranteed h1{
+    margin-bottom: 10px;
+}
+.guaranteed-boxes{
+    display: flex;
+    gap: 30px;
+    margin: 70px 0;    
+}
+.guaranteed-box{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 25px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px;
+}
+.cobalt{
+    background-color: rgb(91, 114, 238);
+    margin-top: -30px;
+}
+
+
+/* TABLET VIEW */
+@media screen and (max-width: 850px) {
+    /* NAV BAR TABLET */
+    nav{
+        width: 90%;
+        height: 7vh;
+    }
+    .diamond{
+        width: 40px;
+        height: 40px;
+    }
+    .logo{
+        font-size: 25px;
+    }
+    .nav-buttons{
+        display: none;
+    }
+    .menu-icon{
+        display: block !important;
+        color: rgb(220, 164, 36);
+        font-size: 20px;
+    }
+
+    /* HOME PAGE TABLET */
+    .home-page{
+        width: 95%;
+        display: block;
+    }
+    .home-page .left, .home-page .right{
+        width: 100%;
+    }
+    .home-page .left h1{
+        margin-top: 50px;
+    }
+
+    /* BUILD WITH HARVOXX TABLET */
+    .build-with-harvoxx{
+        width: 95%;
+        flex-direction: column;
+    }
+    .build-with-harvoxx .left, .build-with-harvoxx .right{
+        width: 100%;
+    }
+
+
+    /* GUARANTEED TABLET */
+    .guaranteed{
+        width: 95%;
+    }
+    .guaranteed-boxes{
+        flex-wrap: wrap;
+    }
+    .guaranteed-box{
+        width: 45%;
+    }
+}
+
+
+/* MOBILE VIEW */
+@media screen and (max-width: 450px) {
+    header{
+        height: auto;
+    }
+    /* NAV MOBILE */
+    .logo-container{
+        width: 70%;
+    }
+    .menu-icon{
+        margin-top: 15px;
+    }
+
+    /* HOME PAGE MOBILE */
+    .home-page .left h1{
+        line-height: 1.2;
+    }
+    .home-page .right img{
+        margin-top: 50px;
+    }
+
+
+    /* BUILD WITH HARVOXX MOBILE */
+    .build-with-harvoxx .right{
+        width: 90%;
+        margin: auto;
+        display: block;
+    }
+    .build-with-harvoxx .right .box{
+        width: 100%;
+    }
+
+    /* GUARANTEED MOBILE */
+    .guaranteed-boxes{
+        gap: 50px;
+    }
+    .guaranteed-box{
+        width: 100%;
+    }
+}
